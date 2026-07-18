@@ -1,0 +1,5 @@
+[["wpp-site-1" :site/url "https://www.wpp.com" 1 :add]
+ ["wpp-site-1" :site/checked-at "2026-07-18" 1 :add]
+ ["wpp-site-1" :site/http-status 200 1 :add]
+ ["wpp-site-1" :site/title "WPP | Trusted growth partner for the world’s leading brands" 1 :add]
+ ["wpp-site-1" :site/description "WPP partners with the world’s leading brands to deliver transformative growth. We combine cutting-edge media intelligence, world-class creativity, next-generation production, transformative enterprise solutions and expert counsel – all powered by exceptional talent and our agentic marketing platform, WPP Open." 1 :add]]
