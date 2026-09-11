@@ -41,7 +41,7 @@ company's behalf, and is not a governed Advisor/Governor actor.
   securities count and the 1 identifier behind it, issuer and issuer accreditation,
   registration authority, legal form, both parent-reporting exceptions, the
   direct-children count and the 24 children behind it). **Generated** — see below.
-- `scripts/verify-facts.cljs` — re-fetches every source `facts.edn` cites and fails if
+- `scripts/verify-facts.cljk` — re-fetches every source `facts.edn` cites and fails if
   the live record disagrees. Vendored from `com-junkawasaki/root`
   (`scripts/lei-verify-facts.cljs`); fix issues in the canonical and re-vendor.
 
@@ -53,8 +53,8 @@ every value in it was read out of a public registry response whose URL and retri
 time sit next to the value:
 
 ```
-nbb scripts/verify-facts.cljs           # check the recorded facts against the live sources
-nbb scripts/verify-facts.cljs --write   # re-fetch and rewrite facts.edn
+nbb scripts/verify-facts.cljk           # check the recorded facts against the live sources
+nbb scripts/verify-facts.cljk --write   # re-fetch and rewrite facts.edn
 ```
 
 Twelve GLEIF/ISO requests back the file (`CHECKED 12` when it was written,
